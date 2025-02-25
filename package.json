@@ -4,13 +4,10 @@
   "description": "It's a MERN stacke based Portfolio Website.",
   "main": "server.js",
   "scripts": {
-     "dev": "vite dev",
+    "dev": "vite dev",
     "build": "vite build",
     "start": "vite preview --host 0.0.0.0 --port $PORT",
-     "postinstall": "npm run build"
-    
-
-    
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": "18.x"
@@ -18,18 +15,15 @@
   "author": "sium01",
   "license": "ISC",
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-   "nodemailer": "^6.10.0",
+    "nodemailer": "^6.10.0",
     "nodemailer-brevo-transport": "^2.1.0",
     "nodeman": "^1.1.2",
-    "vite": "^5.2.8",
-    "@vitejs/plugin-react": "^4.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite": "^5.4.14"
   }
-  
 }
-
-
