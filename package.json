@@ -4,9 +4,9 @@
   "description": "It's a MERN stacke based Portfolio Website.",
   "main": "server.js",
   "scripts": {
-     "start": "vite preview --port $PORT",
-    "build": "vite build"
-    
+     "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview --port $PORT"
     
   },
   "engines": {
@@ -21,9 +21,10 @@
    "nodemailer": "^6.10.0",
     "nodemailer-brevo-transport": "^2.1.0",
     "nodeman": "^1.1.2",
+    "vite": "^5.2.8",
+    "@vitejs/plugin-react": "^4.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^18.2.0"
   }
   
 }
